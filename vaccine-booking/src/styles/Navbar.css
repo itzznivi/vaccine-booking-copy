@@ -1,0 +1,60 @@
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 38px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(16, 10, 10);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+a{
+    font-size: 20px;
+    font-weight: 30px;
+    text-decoration: none;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav a {
+  color: rgb(52, 4, 4);
+  cursor: pointer;
+}
+a:hover {
+   color:  #f94c92;
+}
+
+.loginbtn{
+  background-color:  #f94c92 ;
+  padding: 9px 20px;
+  border-radius: 25px;
+  width: 95px;
+  text-align: center;
+  height: 34px;
+}
+.loginbtn:hover{
+  color: white;
+  background: #000;
+}

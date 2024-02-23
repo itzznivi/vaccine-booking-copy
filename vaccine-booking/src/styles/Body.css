@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: #faddef; */
+ }
+.txt{
+  color: #340383;
+  font-family: "Ubuntu", sans-serif;
+}
+.words1{
+  padding: 60px 0px 0px 0px;
+}
+.words {
+  display: flex;
+  flex-direction: row;
+  padding: 90px;
+  padding-right:20px;
+  }
+ 
+.homepage{
+  width: 600px;
+  padding-left: 100px;
+  padding-top: 30px;
+   padding-right: 40px;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+.bookbtn{
+  border-radius: 28px;
+  background-color: #ff0066;
+  width: 250px;
+  height: 7vh;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+
+}
+.head{
+  color: rgb(44, 24, 135);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 50px;
+  white-space: nowrap;
+}
+.head span{
+  font-size: 60px;
+  font-weight: bold;
+  
+}
+.why-class{
+  color: rgb(8, 8, 102);
+  font-family: "Ubuntu", sans-serif;
+  }
+.head-class{
+  font-size: 60px;
+  color: rgb(4, 4, 74);
+  font-family: "Ubuntu", sans-serif;
+  
+}
+.description{
+  color: rgb(6, 6, 69);
+}
+.box {
+  display: flex;
+  align-items: center;
+  /* flex: 1; */
+  width: 300px;  
+  padding: 20px;  
+  border: 1px solid #ccc;  
+  border-radius: 18px;
+  height: 40px;
+  background-color: rgb(119, 119, 245);
+   opacity: 0.79;
+ }
+.box-txt{
+  color: blue;
+  font-family: "Ubuntu", sans-serif;
+
+}
+.box p{
+  padding: 0px 0px 0px 70px;
+ }
+
+.box img {
+  width: 40px;  
+  max-height: 100px;  
+  margin-bottom: 10px;  
+ }
+
+.box-container{
+  display: flex;
+  justify-content: space-between;
+    flex-direction: row;
+}
+ 
+.section3{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 50px;
+}
+.card1, .card2, .card3{
+  margin-right: 20px;
+}
+.info{
+  color: rgb(7, 7, 112);
+  font-family: "Ubuntu", sans-serif;
+  }
+.info span{
+  font-size: 50px;
+}
