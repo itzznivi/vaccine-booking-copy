@@ -9,6 +9,8 @@ const Admin = () => {
     slots: "",
   });
 
+  
+
   const [data1, setData1] = useState([]);
 
   useEffect(() => {

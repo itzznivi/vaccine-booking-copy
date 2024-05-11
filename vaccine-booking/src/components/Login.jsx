@@ -3,6 +3,7 @@ import email from "../assets/email.png";
 import password from "../assets/password.png";
 import person from "../assets/person.png";
 import "../styles/Login.css";
+//login
 
 function Login() {
   const [action, setAction] = useState("Sign up");
